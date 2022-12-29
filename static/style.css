@@ -1,0 +1,165 @@
+
+body{
+    background-color: lightblue;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: center;
+}
+
+
+.logo{
+    margin-top: 40px;
+}
+
+.input{
+    display: flex;
+    justify-content:space-between;
+    flex-flow: column;
+
+    background-color: white;
+    width: 40%;
+    margin: 15px;
+    border: 1px solid white;
+    border-radius: 3%;
+}
+
+.inputBox{
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+textarea{
+    border: none;
+    resize: none;
+    overflow: auto;
+    outline: none;
+    box-shadow: none;
+    font-size: large;
+}
+
+.avisoReglas{
+    text-align: center;
+}
+
+.botonesInput{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.bontonEncriptar{
+    color: #D8DFE8;
+    padding: 10px;
+    width: 150px;
+    height: 60px;
+    background: #0A3871;
+    border-radius: 24px;
+    border-color: #0A3871;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.bontonEncriptar:hover{
+    font-size: 15px;
+}
+
+.botonDesencriptar{
+    color: darkblue;
+    padding: 10px;
+    width: 150px;
+    height: 60px;
+    background: #D8DFE8;
+    border-radius: 24px;
+    margin-left: 10px;
+    border-color: #0A3871;
+    cursor: pointer;
+}
+
+.botonDesencriptar:hover{
+    font-size: 15px;
+}
+
+textarea{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.output{
+
+    display: flex;
+    justify-content:space-between;
+    flex-flow: column;
+    background-color: white;
+    width: 20%;
+    margin: 15px;
+    border: 1px solid white;
+    border-radius: 24px;
+    box-shadow: 8px 8px 20px 1px rgb(0 0 0 / 12%);
+}
+
+.output p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 23px;
+    font-size: 18px;
+    text-align: left;
+    overflow-wrap: break-word;
+
+}
+
+.espacioImagenNoMensaje{
+    display: flex;
+    justify-content:space-around;
+    width: auto;
+    margin: 40px 20px;
+    flex-flow: column;
+}
+
+.botonCopiar{
+    color: darkblue;
+    padding: 10px;
+    width: 150px;
+    height: 60px;
+    background: #D8DFE8;
+    border-radius: 24px;
+    margin: 10px auto;
+    border-color: #0A3871;
+    cursor: pointer;
+}
+
+.botonCopiar:hover{
+    font-size: 15px;
+}
+
+footer{
+    padding: 10px;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0f3059;
+}
+
+
+.contenidoFooter{
+    margin: auto;
+    text-align: center;
+    margin: auto auto;
+}
+
+.linksRedes{
+    display: flex;
+    flex-flow:row;
+    justify-content: center;
+    gap: 40px;
+}
+
+.linksRedes a{
+    color: inherit;
+    text-transform: inherit;
+}
+

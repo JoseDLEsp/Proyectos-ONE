@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href = "static/reset.css">
+        <link rel="stylesheet" href = "static/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js%22%3E"></script>
+    </head>
+
+    <body>
+        <div class="flexbox">
+
+            <div class="logo">
+                    <img src="static/imagenes/aluraLogo.png">
+            </div>
+
+            <div class="input">
+                <div class="inputBox">
+                    <textarea name="textarea_form" id="inputBox" cols="80" 
+                    rows="20" placeholder="Ingresa el mensaje que deseas encriptar (Solo minúsculas)" required=""></textarea>
+                </div>
+
+                <div class="avisoReglas">
+                    <img src="static/imagenes/soloMinusculas.png">
+                </div>
+
+                <div class="botonesInput">
+                    <button onclick="encriptar()" class="bontonEncriptar">Encriptar</button>
+                    <button onclick="desencriptar()" class="botonDesencriptar">Desencriptar</button>
+                </div>
+            </div>
+
+            <div class="output" >
+                <div id="imagen" class="espacioImagenNoMensaje">
+                    <img src="static/imagenes/Muñeco.png" class="imagenNoMensaje">
+                    <img src="static/imagenes/Frame 5notMessageFound.png" class="imagenNoMensaje">
+                </div>
+                
+                <p id="outputBox"></p>
+                <button hidden onclick="copiarTexto()" id="botonCopiar" class="botonCopiar">Copia el mensaje!</button>
+            </div>
+        </div>
+
+        <footer>
+            <div class="contenidoFooter">
+                <p>Por José de Lucas</p>
+                <div class="linksRedes">
+                    <a href="https://www.linkedin.com/in/josedle/" target="_blank">
+                        <i class="fa fa-linkedin-square" style="font-size:35px"></i>
+                    </a>
+                    <a href="" target="_blank">
+                        <i class="fa fa-github" style="font-size:35px"></i>
+                    </a>
+                </div>
+                
+                
+            </div>
+        </footer>
+
+    </body>
+</html>
+
+<script src="static/script.js"></script>
